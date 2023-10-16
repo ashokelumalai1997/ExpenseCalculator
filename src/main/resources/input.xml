@@ -1,0 +1,38 @@
+<expenses>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with USD</description>
+        <currencyType>USD</currencyType>
+        <amount>50</amount>
+        <date>October 1, 2020</date>
+    </expense>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with EUR</description>
+        <currencyType>EUR</currencyType>
+        <amount>100</amount>
+        <date>October 1, 2020</date>
+    </expense>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with INR</description>
+        <currencyType>INR</currencyType>
+        <amount>200</amount>
+        <date>October 1, 2020</date>
+    </expense>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with USD</description>
+        <currencyType>USD</currencyType>
+        <amount>50</amount>
+        <date>October 1, 2020</date>
+    </expense>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with EUR</description>
+        <currencyType>EUR</currencyType>
+        <amount>100</amount>
+        <date>October 1, 2020</date>
+    </expense>
+    <expense>
+        <description>main.java.org.example.ExpenseCalculator.Expense 1 with INR</description>
+        <currencyType>INR</currencyType>
+        <amount>200</amount>
+        <date>October 1, 2020</date>
+    </expense>
+</expenses>

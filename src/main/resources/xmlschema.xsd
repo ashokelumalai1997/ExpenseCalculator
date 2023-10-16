@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <!-- Define a custom complex type for the "expense" element with custom date format -->
+    <xs:complexType name="ExpenseType">
+        <xs:sequence>
+            <xs:element name="description" type="xs:string"/>
+            <xs:element name="currencyType" type="xs:string"/>
+            <xs:element name="amount" type="xs:decimal"/>
+            <xs:element name="date">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:pattern value="[A-Za-z]+ \d{1,2}, \d{4}"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Define the root element "expenses" with multiple "expense" elements -->
+    <xs:element name="expenses">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="expense" type="ExpenseType" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
